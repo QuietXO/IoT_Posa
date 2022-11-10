@@ -1,12 +1,16 @@
 <?php
-        echo '<h1>index3.php Create .txt based on input parameters</h1>';
+        echo '<h1>Create .txt based on input parameters</h1>';
 
+        echo '<h2><a href="https://eheeey.azurewebsites.net">
+        Home Page</a></h2>';
 
-        $sn1 = $_GET["a"];
-        $sn2 = $_GET["b"];
+        echo '<p> https://eheeey.azurewebsites.net/index3.php?A=10&B=2 </p>';
+
+        $sn1 = $_GET["A"];
+        $sn2 = $_GET["B"];
 
         $file1 = fopen("sensors.txt","w") or die("Unable to open file!");
-        $text1 = "a=" . $sn1 . " b=" . $sn2;
+        $text1 = "A = " . $sn1 . "B = " . $sn2;
 
         fwrite($file1, $text1);
         fclose($file1);
