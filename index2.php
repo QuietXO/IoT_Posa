@@ -1,8 +1,8 @@
 <?php
         echo '<h1>index2.php web page with parameters</h1>';
 
-        echo '<h1>href="https://eheeey.azurewebsites.net">
-      	Home Page</h1>';
+        echo '<h1><a href="https://eheeey.azurewebsites.net">
+      	Home Page</a></h1>';
 
         echo '<p> https://eheeey.azurewebsites.net/index2.php?A=10&B=2 </p>';
 
