@@ -10,7 +10,7 @@
         $sn2 = $_GET["B"];
 
         $file1 = fopen("sensors.txt","w") or die("Unable to open file!");
-        $text1 = "A = " . $sn1 . "B = " . $sn2;
+        $text1 = "A = " . $sn1 . " B = " . $sn2;
 
         fwrite($file1, $text1);
         fclose($file1);
