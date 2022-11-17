@@ -16,12 +16,12 @@
 				<p>& we"ll reach out to you as soon as we can.</p>
         <form action="contact.php" method="POST">
             <label for="nameF">Firt Name:</label>
-            <input type="text" name="nameF" id="nameF">
+            <input type="text" name="nameF" id="nameF" required>
 						<label for="nameL">Last Name:</label>
             <input type="text" name="nameL" id="nameL">
 
             <label for="email">Email:</label>
-            <input type="email" name="email" id="email">
+            <input type="email" name="email" id="email" required>
 						<label for="phone">Phone Number:</label>
 						<input type="text" name="country" id="country">
             <input type="text" name="phone" id="phone">
@@ -34,9 +34,9 @@
 							<option value="technical">Technical Support</option>
 						</select>
 
-            <label for="subject">Subject:</label>
+            <label for="subject">Subject:</label required>
             <input type="text" name="subject" id="subject">
-            <label for="message">Message</label>
+            <label for="message">Message</label required>
             <textarea name="message" cols="30" rows="10"></textarea>
             <input type="submit" value="Send">
         </form>
