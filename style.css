@@ -142,6 +142,7 @@ a:hover {
 
 #departmentText {
   float: left;
+  border-bottom: 2px solid #828282;
 }
 
 #departmentSelect {
@@ -150,7 +151,6 @@ a:hover {
 }
 
 #messageSpace {
-  padding-top: 50px;
-  border-top: 2px solid #828282;
+  padding-top: 10px;
   clear: both;
 }
