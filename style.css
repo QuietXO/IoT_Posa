@@ -88,8 +88,7 @@ input[type=submit]:hover {
 }
 
 input,
-textarea,
-select {
+textarea {
     color: white;
     font-size: 18px;
     padding: 10px;
