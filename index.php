@@ -26,9 +26,11 @@
 							placeholder="Doe">
 						</div>
 
-            <label for="email">Email:</label>
-            <input type="email" name="email" id="email"
-						placeholder="john.doe@email.com" required>
+						<div id="mailE">
+	            <label for="email">Email:</label>
+	            <input type="email" name="email" id="email"
+							placeholder="john.doe@email.com" required>
+						</div>
 
 						<label for="phone">Phone Number:</label>
 						<div id="phoneCountry">
