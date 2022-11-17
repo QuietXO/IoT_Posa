@@ -132,7 +132,9 @@ a:hover {
 }
 
 #departmentRow {
+  padding-top: 10px;
   clear: both;
+  padding-bottom: 10px;
 }
 
 #departmentText {
