@@ -139,7 +139,6 @@ a:hover {
   padding-top: 10px;
   clear: both;
   padding-bottom: 10px;
-  border-bottom: 2px solid #828282;
 }
 
 #departmentText {
@@ -152,5 +151,6 @@ a:hover {
 }
 
 #messageSpace {
+  border-top: 2px solid #828282;
   clear: both;
 }
