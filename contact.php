@@ -5,12 +5,16 @@ $nameL = $_POST["nameL"];
 $email = $_POST["email"];
 $country = $_POST["country"];
 $phone_raw = $_POST["phone"];
-$department = $_POST["department-selection"];
+$department_raw = $_POST["department-selection"];
 $subject = $_POST["subject"];
 $message = $_POST["message"];
 
-if ($phone_raw[0] == "0"){ $phone = $country . " " . ltrim($phone_raw, "0"); }
+if($phone_raw[0] == "0"){ $phone = $country . " " . ltrim($phone_raw, "0"); }
 else{ $phone = $country . " " . $phone_raw; }
+
+if($department_raw == "logistics"){ $department = "Logistics Problem"; }
+else if($department_raw == "payment"){ $department = "Payment Problem"; }
+else{ $department = "Technical Support"; }
 
 $file1 = fopen("mail.txt","w") or die("Unable to open file!");
 $mail = "From: " . $nameF . " " . $nameL . "\n" .
