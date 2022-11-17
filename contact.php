@@ -1,15 +1,19 @@
 <?php
 
-$name = $_POST['name'];
+$nameF = $_POST['nameF'];
+$nameL = $_POST['nameL'];
 $email = $_POST['email'];
+$phone = $_POST['phone'];
 $subject = $_POST['subject'];
 $message = $_POST['message'];
 
-$mailheader = "From:".$name."<".$email.">\r\n";
+$file1 = fopen("mail.txt","w") or die("Unable to open file!");
+$mail = "From: " . $nameF . " " . $nameL . "\n" .
+        "Email: " . $email . "\n" . "Phone: " . . $phone . "\n" .
+        "Subject: " . $subject . "\n" . "Message: " . $message;
 
-$recipient = "example@gmail.com";
-
-mail($recipient, $subject, $message, $mailheader) or die("Error!");
+fwrite($file1, $text1);
+fclose($file1);
 
 echo'
 <!DOCTYPE html>
@@ -24,9 +28,8 @@ echo'
 </head>
 <body>
     <div class="container">
-        <h1>Thank you for contacting me. I will get back to you as soon as possible!</h1>
-        <p class="back">Go back to the <a href="index.html">homepage</a>.</p>
-
+        <h1>Thanks for contacting us. We will get back to you as soon as possible!</h1>
+        <p class="back">Go back to the <a href="index.php">homepage</a>.</p>
     </div>
 </body>
 </html>
