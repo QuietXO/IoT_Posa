@@ -19,11 +19,21 @@
             <input type="text" name="nameF" id="nameF">
 						<label for="nameL">Last Name:</label>
             <input type="text" name="nameL" id="nameL">
+
             <label for="email">Email:</label>
             <input type="email" name="email" id="email">
 						<label for="phone">Phone Number:</label>
 						<input type="text" name="country" id="country">
             <input type="text" name="phone" id="phone">
+
+						<label for="department-selection">What seems to be the problem:</label>
+						<select id="department-selection" name="concerned_department" required>
+							<option value="">Select a Department</option>
+							<option value="billing">Billing</option>
+							<option value="marketing">Marketing</option>
+							<option value="technical support">Technical Support</option>
+						</select>
+
             <label for="subject">Subject:</label>
             <input type="text" name="subject" id="subject">
             <label for="message">Message</label>
