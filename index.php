@@ -16,15 +16,20 @@
 				<p>& we"ll reach out to you as soon as we can.</p>
         <form action="contact.php" method="POST">
             <label for="nameF">Firt Name:</label>
-            <input type="text" name="nameF" id="nameF" required>
+            <input type="text" name="nameF" id="nameF"
+						placeholder="John" required>
 						<label for="nameL">Last Name:</label>
-            <input type="text" name="nameL" id="nameL">
+            <input type="text" name="nameL" id="nameL"
+						placeholder="Doe">
 
             <label for="email">Email:</label>
-            <input type="email" name="email" id="email" required>
+            <input type="email" name="email" id="email"
+						placeholder="john.doe@email.com" required>
 						<label for="phone">Phone Number:</label>
-						<input type="text" name="country" id="country">
-            <input type="text" name="phone" id="phone">
+						<input type="text" name="country" id="country"
+						placeholder="+421">
+            <input type="text" name="phone" id="phone"
+						placeholder="9XX XXX XXX">
 
 						<label for="department-selection">What seems to be the problem:</label>
 						<select id="department-selection" name="concerned_department" required>
@@ -35,9 +40,11 @@
 						</select>
 
             <label for="subject">Subject:</label>
-            <input type="text" name="subject" id="subject" required>
+            <input type="text" name="subject" id="subject"
+						placeholder="Subject" required>
             <label for="message">Message</label>
-            <textarea name="message" cols="30" rows="10" required></textarea>
+            <textarea name="message" cols="30" rows="10"
+						placeholder="Message" required></textarea>
             <input type="submit" value="Send">
         </form>
     </div>
