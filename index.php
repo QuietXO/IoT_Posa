@@ -25,11 +25,16 @@
             <label for="email">Email:</label>
             <input type="email" name="email" id="email"
 						placeholder="john.doe@email.com" required>
+
 						<label for="phone">Phone Number:</label>
-						<input type="text" name="country" id="country"
-						placeholder="+421">
-            <input type="text" name="phone" id="phone"
-						placeholder="9XX XXX XXX">
+						<div id="phoneC">
+							<input type="text" name="country" id="country"
+							placeholder="+421">
+						</div>
+						<div id="phoneN">
+	            <input type="text" name="phone" id="phone"
+							placeholder="9XX XXX XXX">
+						</div>
 
 						<label for="department-selection">What seems to be the problem:</label>
 						<select id="department-selection" name="concerned_department" required>

@@ -104,3 +104,13 @@ a {
 a:hover {
     color: #fff;
 }
+
+#phoneC {
+  max-width: 100px;
+  float: left;
+}
+
+#phoneN {
+  max-width: 400px;
+  float: right;
+}
