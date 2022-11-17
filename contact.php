@@ -9,7 +9,7 @@ $message = $_POST['message'];
 
 $file1 = fopen("mail.txt","w") or die("Unable to open file!");
 $mail = "From: " . $nameF . " " . $nameL . "\n" .
-        "Email: " . $email . "\n" . "Phone: " . . $phone . "\n" .
+        "Email: " . $email . "\n" . "Phone: " . $phone . "\n" .
         "Subject: " . $subject . "\n" . "Message: " . $message;
 
 fwrite($file1, $text1);

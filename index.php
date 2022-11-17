@@ -5,14 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Support Page</title>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins&display=swap"
+		rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
         <h1>Support Page</h1>
-        <p>Feel free to contact us in case of any problems and we'll try to
-					get back to you as soon as we can.</p>
+        <p>Feel free to contact us in case of any problems</p>
+				<p>& we'll try to reach to you as soon as we can.</p>
         <form action="contact.php" method="POST">
             <label for="nameF">Firt Name:</label>
             <input type="text" name="nameF" id="nameF">
