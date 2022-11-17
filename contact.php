@@ -3,14 +3,15 @@
 $nameF = $_POST['nameF'];
 $nameL = $_POST['nameL'];
 $email = $_POST['email'];
+$country = $_POST['country'];
 $phone = $_POST['phone'];
 $subject = $_POST['subject'];
 $message = $_POST['message'];
 
 $file1 = fopen("mail.txt","w") or die("Unable to open file!");
 $mail = "From: " . $nameF . " " . $nameL . "\n" .
-        "Email: " . $email . "\n" . "Phone: " . $phone . "\n" .
-        "Subject: " . $subject . "\n" . "Message: " . $message;
+        "Email: " . $email . "\n" . "Phone: " . $country . " " . $phone .
+        "\n" . "Subject: " . $subject . "\n" . "Message: " . $message;
 
 fwrite($file1, $mail);
 fclose($file1);

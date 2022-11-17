@@ -13,7 +13,7 @@
     <div class="container">
         <h1>Support Page</h1>
         <p>Feel free to contact us in case of any problems</p>
-				<p>& we'll try to reach to you as soon as we can.</p>
+				<p>& we'll reach out to you as soon as we can.</p>
         <form action="contact.php" method="POST">
             <label for="nameF">Firt Name:</label>
             <input type="text" name="nameF" id="nameF">
@@ -22,7 +22,8 @@
             <label for="email">Email:</label>
             <input type="email" name="email" id="email">
 						<label for="phone">Phone Number:</label>
-            <input type="text" name="phone" id="phone">
+						<input type="text" name="country" id="country">
+            <input type="number" name="phone" id="phone">
             <label for="subject">Subject:</label>
             <input type="text" name="subject" id="subject">
             <label for="message">Message</label>
