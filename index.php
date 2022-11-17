@@ -42,7 +42,7 @@
 
 						<div id="departmentRow">
 							<div id="departmentText">
-								<label for="department-selection">What seems to be the problem:  </label>
+								<label for="department-selection">What seems to be the problem:</label>
 							</div>
 							<div id="departmentSelect">
 								<select id="department-selection" name="concerned_department" required>

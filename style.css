@@ -140,7 +140,8 @@ a:hover {
 }
 
 #departmentSelect {
-  float: right;
+  float: left;
+  padding-left: 10px;
 }
 
 #messageSpace {
