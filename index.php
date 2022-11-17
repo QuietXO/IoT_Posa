@@ -12,7 +12,10 @@
       	<h1>Support Page</h1>
 			</div>
 			<form class="support-page" action="contact.php" method="post">
-				<input type="text" name="name" placeholder="Full Name">
+				<p>Your Name:</p>
+				<input type="text" name="name1" placeholder="First Name">
+				<input type="text" name="nameL" placeholder="Last Name">
+				<p>Your Email:</p>
 				<input type="text" name="mail" placeholder="Your e-mail">
 				<div class="elem-group">
 	    		<label for="department-selection">What seems to be the problem:</label>
@@ -23,7 +26,9 @@
 		        <option value="technical support">Technical Support</option>
 	    		</select>
   			</div>
+				<p>Message Subject:</p>
 				<input type="text" name="subject" placeholder="Subject">
+				<p>Message:</p>
 				<textarea name="message" placeholder="Your Message"></textarea>
 				<button type="submit" name="submit">SEND MAIL</button>
 			</form>
