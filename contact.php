@@ -12,7 +12,7 @@ $mail = "From: " . $nameF . " " . $nameL . "\n" .
         "Email: " . $email . "\n" . "Phone: " . $phone . "\n" .
         "Subject: " . $subject . "\n" . "Message: " . $message;
 
-fwrite($file1, $text1);
+fwrite($file1, $mail);
 fclose($file1);
 
 echo'
