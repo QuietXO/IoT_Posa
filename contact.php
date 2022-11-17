@@ -5,7 +5,7 @@ $nameL = $_POST["nameL"];
 $email = $_POST["email"];
 $country = $_POST["country"];
 $phone_raw = $_POST["phone"];
-$department_raw = $_POST["department-selection"];
+$department_raw = $_POST["concerned_department"];
 $subject = $_POST["subject"];
 $message = $_POST["message"];
 
