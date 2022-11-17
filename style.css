@@ -125,7 +125,7 @@ a:hover {
 
 #phoneNumber {
   max-width: 400px;
-  float: right;
+  float: left;
 }
 
 #departmentRow {
