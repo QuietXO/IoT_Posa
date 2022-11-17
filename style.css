@@ -115,3 +115,13 @@ a:hover {
   max-width: 400px;
   float: right;
 }
+
+#nameFR {
+  max-width: 250px;
+  float: left;
+}
+
+#nameLA {
+  max-width: 250px;
+  float: right;
+}
