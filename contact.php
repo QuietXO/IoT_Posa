@@ -4,14 +4,23 @@ $nameF = $_POST['nameF'];
 $nameL = $_POST['nameL'];
 $email = $_POST['email'];
 $country = $_POST['country'];
-$phone = $_POST['phone'];
+$phone_raw = $_POST['phone'];
 $subject = $_POST['subject'];
 $message = $_POST['message'];
 
+if ($country == '+421' and $phone_raw[0] == '9')
+{
+  $phone = $country . " " . $phone_raw;
+}
+else
+{
+  $phone = $country . " " . ltrim($phone_raw, '0');
+}
+
 $file1 = fopen("mail.txt","w") or die("Unable to open file!");
 $mail = "From: " . $nameF . " " . $nameL . "\n" .
-        "Email: " . $email . "\n" . "Phone: " . $country . " " . $phone .
-        "\n" . "Subject: " . $subject . "\n" . "Message: " . $message;
+        "Email: " . $email . "\n" . "Phone: " . $phone . "\n" .
+        "Subject: " . $subject . "\n" . "Message: " . $message;
 
 fwrite($file1, $mail);
 fclose($file1);
