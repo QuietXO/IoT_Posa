@@ -134,6 +134,7 @@ a:hover {
 }
 
 #departmentText {
+  vertical-align: middle;
   float: left;
 }
 
