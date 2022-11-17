@@ -34,10 +34,10 @@
 							<option value="technical">Technical Support</option>
 						</select>
 
-            <label for="subject">Subject:</label required>
-            <input type="text" name="subject" id="subject">
-            <label for="message">Message</label required>
-            <textarea name="message" cols="30" rows="10"></textarea>
+            <label for="subject">Subject:</label>
+            <input type="text" name="subject" id="subject" required>
+            <label for="message">Message</label>
+            <textarea name="message" cols="30" rows="10" required></textarea>
             <input type="submit" value="Send">
         </form>
     </div>
