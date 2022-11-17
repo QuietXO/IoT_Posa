@@ -22,7 +22,7 @@
             <label for="email">Email:</label>
             <input type="email" name="email" id="email">
 						<label for="phone">Phone Number:</label>
-            <input type="phone" name="phone" id="phone">
+            <input type="text" name="phone" id="phone">
             <label for="subject">Subject:</label>
             <input type="text" name="subject" id="subject">
             <label for="message">Message</label>
