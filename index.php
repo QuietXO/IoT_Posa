@@ -53,7 +53,6 @@
 								</select>
 							</div>
 						</div>
-						<div id="departmentBottom"> </div>
 
 						<div id="messageSpace">
 	            <label for="subject">Subject:</label>
