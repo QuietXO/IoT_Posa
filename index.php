@@ -54,13 +54,15 @@
 							</div>
 						</div>
 
-            <label for="subject">Subject:</label>
-            <input type="text" name="subject" id="subject"
-						placeholder="Subject" required>
-            <label for="message">Message</label>
-            <textarea name="message" cols="30" rows="10"
-						placeholder="Message" required></textarea>
-            <input type="submit" value="Send">
+						<div id="messageSpace">
+	            <label for="subject">Subject:</label>
+	            <input type="text" name="subject" id="subject"
+							placeholder="Subject" required>
+	            <label for="message">Message</label>
+	            <textarea name="message" cols="30" rows="10"
+							placeholder="Message" required></textarea>
+	            <input type="submit" value="Send">
+						</div>
         </form>
     </div>
 </body>
