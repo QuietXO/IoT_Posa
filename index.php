@@ -54,6 +54,7 @@
 							</div>
 						</div>
 						<div id="departmentBottom"> </div>
+
 						<div id="messageSpace">
 	            <label for="subject">Subject:</label>
 	            <input type="text" name="subject" id="subject"
