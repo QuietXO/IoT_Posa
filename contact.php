@@ -9,8 +9,8 @@ $department_raw = $_POST["concerned_department"];
 $subject = $_POST["subject"];
 $message = $_POST["message"];
 
-if($phone_raw[0] == "0"){ $phone = $country . " " . ltrim($phone_raw, "0"); }
-else{ $phone = $country . " " . $phone_raw; }
+if($phone_raw[0] == "0"){ $phone = $country . " " . trim(ltrim($phone_raw, "0"), " "); }
+else{ $phone = $country . " " . trim($phone_raw, " "); }
 
 if($department_raw == "logistics"){ $department = "Logistics Problem"; }
 else if($department_raw == "payment"){ $department = "Payment Problem"; }
