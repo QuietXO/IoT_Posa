@@ -15,12 +15,16 @@
         <p>Feel free to contact us in case of any problems</p>
 				<p>& we"ll reach out to you as soon as we can.</p>
         <form action="contact.php" method="POST">
-            <label for="nameF">Firt Name:</label>
-            <input type="text" name="nameF" id="nameF"
-						placeholder="John" required>
-						<label for="nameL">Last Name:</label>
-            <input type="text" name="nameL" id="nameL"
-						placeholder="Doe">
+						<div id="nameFR">
+	            <label for="nameF">Firt Name:</label>
+	            <input type="text" name="nameF" id="nameF"
+							placeholder="John" required>
+						</div>
+						<div id="nameLA">
+							<label for="nameL">Last Name:</label>
+	            <input type="text" name="nameL" id="nameL"
+							placeholder="Doe">
+						</div>
 
             <label for="email">Email:</label>
             <input type="email" name="email" id="email"
