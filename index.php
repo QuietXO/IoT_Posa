@@ -23,7 +23,7 @@
             <input type="email" name="email" id="email">
 						<label for="phone">Phone Number:</label>
 						<input type="text" name="country" id="country">
-            <input type="number" name="phone" id="phone">
+            <input type="text" name="phone" id="phone">
             <label for="subject">Subject:</label>
             <input type="text" name="subject" id="subject">
             <label for="message">Message</label>
