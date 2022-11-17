@@ -50,7 +50,6 @@ form {
     margin: 0 auto;
     text-align: left;
     padding: 20px 0;
-    clear: both;
 }
 
 input,
@@ -106,22 +105,34 @@ a:hover {
     color: #fff;
 }
 
-#phoneC {
+#nameFirst {
+  max-width: 250px;
+  float: left;
+}
+
+#nameLast {
+  max-width: 250px;
+  float: right;
+}
+
+#phoneCountry {
   max-width: 100px;
   float: left;
 }
 
-#phoneN {
+#phoneNumber {
   max-width: 400px;
   float: right;
 }
 
-#nameFR {
-  max-width: 250px;
+#departmentRow {
+  clear: both;
+}
+
+#departmentText {
   float: left;
 }
 
-#nameLA {
-  max-width: 250px;
+#departmentSelect {
   float: right;
 }

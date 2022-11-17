@@ -15,12 +15,12 @@
         <p>Feel free to contact us in case of any problems</p>
 				<p>& we"ll reach out to you as soon as we can.</p>
         <form action="contact.php" method="POST">
-						<div id="nameFR">
+						<div id="nameFirst">
 	            <label for="nameF">Firt Name:</label>
 	            <input type="text" name="nameF" id="nameF"
 							placeholder="John" required>
 						</div>
-						<div id="nameLA">
+						<div id="nameLast">
 							<label for="nameL">Last Name:</label>
 	            <input type="text" name="nameL" id="nameL"
 							placeholder="Doe">
@@ -31,22 +31,28 @@
 						placeholder="john.doe@email.com" required>
 
 						<label for="phone">Phone Number:</label>
-						<div id="phoneC">
+						<div id="phoneCountry">
 							<input type="text" name="country" id="country"
 							placeholder="+421">
 						</div>
-						<div id="phoneN">
+						<div id="phoneNumber">
 	            <input type="text" name="phone" id="phone"
 							placeholder="9XX XXX XXX">
 						</div>
 
-						<label for="department-selection">What seems to be the problem:</label>
-						<select id="department-selection" name="concerned_department" required>
-							<option value="">Select a Problem</option>
-							<option value="logistics">Logistics</option>
-							<option value="payment">Payment</option>
-							<option value="technical">Technical Support</option>
-						</select>
+						<div id="departmentRow">
+							<div id="departmentText">
+								<label for="department-selection">What seems to be the problem:</label>
+							</div>
+							<div id="departmentSelect">
+								<select id="department-selection" name="concerned_department" required>
+									<option value="">Select a Problem</option>
+									<option value="logistics">Logistics</option>
+									<option value="payment">Payment</option>
+									<option value="technical">Technical Support</option>
+								</select>
+							</div>
+						</div>
 
             <label for="subject">Subject:</label>
             <input type="text" name="subject" id="subject"
