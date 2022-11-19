@@ -40,7 +40,8 @@ echo'
     <div class="container">
         <h1>Thanks for contacting us.</h1>
         <h2>We will get back to you as soon as possible!</h2>
-        <p class="back">Go back to the <a href="index.php">homepage</a>.</p>
+        <p class="back">Go back to the <a href="index.php">homepage</a></p>
+        <p class="back">Go to the <a href="mail.txt">text file</a></p>
     </div>
 </body>
 </html>
