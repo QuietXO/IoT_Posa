@@ -8,8 +8,8 @@ $hints = [
     1 => "Put the Teapot on it's place.",
     2 => "Not enought Water.",
     3 => "Too much Water.",
-    4 => "Heating up the Water.",
-    5 => "Hint5",
+    4 => "Press the Start button.",
+    5 => "Heating up the Water.",
     6 => "Hint6"
 ];
 
