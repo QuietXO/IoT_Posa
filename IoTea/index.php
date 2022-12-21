@@ -18,7 +18,7 @@ $hints = [
 <head>
     <title>Tea Maker v0.1</title>
     <link rel="stylesheet" href="styles.css">
-    <meta http-equiv="Refresh" content="5">
+    <meta http-equiv="Refresh" content="1">
 </head>
 <body>
 <section>
