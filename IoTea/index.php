@@ -5,10 +5,10 @@ $parameters = json_decode($content, JSON_OBJECT_AS_ARRAY);
 
 $hints = [
     0 => "",
-    1 => "Hint1",
-    2 => "Hint2",
-    3 => "Hint3",
-    4 => "Hint4",
+    1 => "Put the Teapot on it's place.",
+    2 => "Not enought Water.",
+    3 => "Too much Water.",
+    4 => "Heating up the Water.",
     5 => "Hint5",
     6 => "Hint6"
 ];
