@@ -38,7 +38,9 @@ $hints = [
     3 => "Too much Water.",
     4 => "Press the Start button.",
     5 => "Heating up the Water.",
-    6 => "Hint6",
+    6 => "The Water is cooling down.",
+    7 => "Adding the Herbs.",
+    8 => "Brewing...",
 ];
 
 // nacitanie dat zo suboru
